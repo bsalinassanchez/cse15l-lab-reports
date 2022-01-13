@@ -24,7 +24,7 @@ This tutorial will teach you how to:
 Visual Studio Code is the recommended integrated development environment (IDE) for CSE 15L and many other CSE courses. VSCode is available for free for mac and windows devices.
 <p>&nbsp;</p>
 
-![vs code download](/images/vscode-download.jpeg)
+![vs code download](/images/vscode-download.png)
 >Download and install VSCode for your operating system
 <p>&nbsp;</p>
 
