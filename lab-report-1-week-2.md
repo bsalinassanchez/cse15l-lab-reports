@@ -1,1 +1,1 @@
-![screenshot](screenshot1.png "Killua!")
+![screenshot](screenshot1.png "screenshot")
