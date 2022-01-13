@@ -3,7 +3,7 @@
 
 ## Brandon 2
 
-## [Lab Report 1](lab-report-1-week-2.html)
+## [Lab Report 1](https://bsalinassanchez.github.io/CSE15L-LAB-REPORTS/lab-report-1-week-2.html)
 
 ### Brandon 3
 
