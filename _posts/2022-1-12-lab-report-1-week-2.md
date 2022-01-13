@@ -28,6 +28,21 @@ Visual Studio Code is the recommended integrated development environment (IDE) f
 >Download and install VSCode for your operating system
 <p>&nbsp;</p>
 
+![vscode open](/images/vscode-open.png)
+>When you first open VSCode you should see a window that looks like this
+<p>&nbsp;</p>
+
+![java extension](/images/java-extension.png)
+>I also recommend installing the Extension Pack For Java
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+### Step 2: Connecting Remotely to ieng6 (server)
+<p>&nbsp;</p>
+
+ieng6
+
 A bullet list is created using `*`, `+`, or `-`, like:
 
 - dog
