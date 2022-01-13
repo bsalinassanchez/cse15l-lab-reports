@@ -47,8 +47,9 @@ In order to connect to ieng6 you will first need to find your course-specific ac
     * Accounts will appear as `cse15lwi22xyz@ieng6.ucsd.edu`, where `xyz` is unique to each student
 2. In the VSCode terminal, type `$ ssh cse15lwi22xyz@ieng6.ucsd.edu`
     * this commands allows the client (your device) to connect to the server (ieng6)
-    * if a message pops up stating that the authenticity of host could not be established, just type `yes` to continue
-3. 
+    * if a message pops up stating that the authenticity of host could not be established, just type `yes` and enter your password (your password for the course-specific account)
+3. If your connection to the server is successful, your terminal should look like this:
+    * insert image of terminal
 
 
 
