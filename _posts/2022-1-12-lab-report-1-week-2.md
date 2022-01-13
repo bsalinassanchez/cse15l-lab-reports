@@ -5,17 +5,28 @@ tags: github gitpages
 categories: lab reports
 ---
 
-This is a paragraph in my first post.
-Show off your Markdown!
+# Remote Access and Filesystem Tutorial
 
-## Heading Two 
+## Overview
 
-Any text with no empty lines between will become a paragraph.
-Leave an blank line between headings and paragraphs.
-Font can be *Italic* or **Bold**.
-Code can be highlighted with `backticks`.
+This tutorial will teach you how to:
+- Install Visual Studio Code (VSCode)
+- Connect remotely to ieng6 (server)
+- Perform simple filesystem commands
+- Move files with `scp`
+- Set an SSH Key
+- Optimize remote running
 
-Hyperlinks look like this [GitHub Help](https://help.github.com/).
+*Note: this tutorial is intended for devices running macOS*
+<p>&nbsp;</p>
+
+### Step 1: Install [VSCode](https://code.visualstudio.com/download)
+Visual Studio Code is the recommended integrated development environment (IDE) for CSE 15L and many other CSE courses. VSCode is available for free for mac and windows devices.
+<p>&nbsp;</p>
+
+![vs code download](/images/vscode-download.png)
+>Download and install VSCode for your operating system
+<p>&nbsp;</p>
 
 A bullet list is created using `*`, `+`, or `-`, like:
 
