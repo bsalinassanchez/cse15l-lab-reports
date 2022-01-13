@@ -24,15 +24,15 @@ This tutorial will teach you how to:
 Visual Studio Code is the recommended integrated development environment (IDE) for CSE 15L and many other CSE courses. VSCode is available for free for mac and windows devices.
 <p>&nbsp;</p>
 
-![vs code download](/images/vscode-download.png)
+![vs code download](../images/vscode-download.png)
 >Download and install VSCode for your operating system
 <p>&nbsp;</p>
 
-![vscode open](/images/vscode-open.png)
+![vscode open](../images/vscode-open.png)
 >When you first open VSCode you should see a window that looks like this
 <p>&nbsp;</p>
 
-![java extension](/images/java-extension.png)
+![java extension](../images/java-extension.png)
 >I also recommend installing the Extension Pack For Java
 <p>&nbsp;</p>
 <p>&nbsp;</p>
