@@ -20,7 +20,7 @@ This tutorial will teach you how to:
 *Note: this tutorial is intended for devices running macOS*
 <p>&nbsp;</p>
 
-### Step 1: Install [VSCode](https://code.visualstudio.com/download)
+### Step 1: Install <a href="https://code.visualstudio.com/download" target="_blank">VSCode</a>
 Visual Studio Code is the recommended integrated development environment (IDE) for CSE 15L and many other CSE courses. VSCode is available for free for mac and windows devices.
 <p>&nbsp;</p>
 
