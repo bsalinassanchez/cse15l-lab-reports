@@ -1,9 +1,14 @@
 # Site settings
-title: Great New Blog Title
+title: Brandon E. Salinas Sanchez
 author:
   name: Brandon Salinas Sanchez
   email: bsalinassanchez@ucsd.edu
-description: "Great site about Jekyll on GH-Pages."
+description: "Brandon's Portfolio Page"
+
+minima:
+  social_links:
+    github: bsalinassanchez
+    linkedin: bsalinassanchez
 
 # Build settings
 remote_theme: jekyll/minima
