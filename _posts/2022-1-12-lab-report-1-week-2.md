@@ -107,6 +107,7 @@ class WhereAmI {
 6. Now, try running `javac` and `java` on the server. What is the output? How is it different than running `java` on your computer?
 
 ![server](https://bsalinassanchez.github.io/cse15l-lab-reports/images/server.png)
+
 ![client](https://bsalinassanchez.github.io/cse15l-lab-reports/images/client.png)
 
 
