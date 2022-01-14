@@ -144,7 +144,7 @@ SSH Keys allow the client to establish a connection to the server without having
 
 Now that you have finished setting up VSCode and SSH connection, how can we continue to optimize running remotely on a server?
 
-As it turns, there are many useful tricks you can do in the command line in order to optimize remote running. 
+As it turns out, there are many useful tricks you can do in the command line in order to optimize remote running. 
 
 For example, you can `ssh`, `ls`, and `logout` in a single command!
 
