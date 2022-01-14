@@ -122,7 +122,7 @@ How can we decrease the amount of time we take having to enter our password?
 SSH Keys allow the client to establish a connection to the server without having to enter your password everytime! This is through a public and private key, stored in the server and client respectively.
 
 1. In order to generate an ssh key run `$ ssh-keygen` on your computer (the client)
-2. Next, choose a file location to save the key. It will give you a recommendatio in parenthesis.
+2. Next, choose a file location to save the key. It will give you a recommendation in parenthesis.
 3. Afterwords, enter a passphrase/password. You will be asked to enter it a second time.
 4. The public/private key pair will be created and located in the indicated location.
 5. The entire interaction should look something like this:
@@ -135,6 +135,27 @@ SSH Keys allow the client to establish a connection to the server without having
 9. If everything was succesfull you should be able to `ssh` into the server without entering your password. You can verify that your public key was succesfully copied over to the server by running `$ cd .ssh` and `ls` on the server:
 
 ![authorized-key](https://bsalinassanchez.github.io/cse15l-lab-reports/images/authorized-key.png)
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+### Step 6: Optimize Remote Running
+
+Now that you have finished setting up VSCode and SSH connection, how can we continue to optimize running remotely on a server?
+
+As it turns, there are many useful tricks you can do in the command line in order to optimize remote running. 
+
+For example, you can `ssh`, `ls`, and `logout` in a single command!
+
+![optimize](https://bsalinassanchez.github.io/cse15l-lab-reports/images/optimize.png)
+
+You can also execute multiple commands by seperating them with a semicolon (`;`) in a single line
+
+`$ ssh cs15lwi22xyz@ieng6.ucsd.edu "ls"; java WhereAmI`
+
+Is there a long command you repeat often in a short time? Tired of typing it out or having to copy-paste? You can simply press the up arrow-key on your keyboard to switch through recently used commands!
+
+There are many more useful command line running tricks, look some up!
 
 
 
