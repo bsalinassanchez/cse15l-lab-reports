@@ -10,7 +10,7 @@ categories: lab reports
 ## Overview
 
 This tutorial will teach you how to:
-- Install Visual Studio Code (VSCode)
+- [Install Visual Studio Code (VSCode)](#step-1-install-vscode)
 - Connect remotely to ieng6 (server)
 - Perform simple filesystem commands
 - Move files with `scp`
