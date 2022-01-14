@@ -109,5 +109,33 @@ class WhereAmI {
 ![server](https://bsalinassanchez.github.io/cse15l-lab-reports/images/server.png)
 
 ![client](https://bsalinassanchez.github.io/cse15l-lab-reports/images/client.png)
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+### Step 5: Setting an SSH Key
+
+Remember having to enter your password everytime you `ssh` or `scp`? How long does that take. Only a few seconds right? Now imagine working on a PA the night before its due. Everytime you want to run a file on the ieng6 server or copy a file over to the server you need to enter your password. Its reasonable that you will need to enter your password dozens or even hundreds of times. By the time you are finished, this will have actually amounted to several minutes!
+
+How can we decrease the amount of time we take having to enter our password? 
+
+SSH Keys allow the client to establish a connection to the server without having to enter your password everytime! This is through a public and private key, stored in the server and client respectively.
+
+1. In order to generate an ssh key run `$ ssh-keygen` on your computer (the client)
+2. Next, choose a file location to save the key. It will give you a recommendatio in parenthesis.
+3. Afterwords, enter a passphrase/password. You will be asked to enter it a second time.
+4. The public/private key pair will be created and located in the indicated location.
+5. The entire interaction should look something like this:
+
+![keygen](https://bsalinassanchez.github.io/cse15l-lab-reports/images/keygen.png)
+
+6. Now, `ssh` into the server. Once connected to the server run `$ mkdir .ssh` in order to create a "hidden" folder. Run `ls -a` in order to view the hidden folder.
+7. `logout` or `exit` from the server.
+8. finally, run `$ scp /Users/username/.ssh/id_rsa.pub cs15lwi22xyz@ieng6.ucsd.edu:~/.ssh/authorized_keys` on the client (your computer). This will copy your public key to the `.ssh` file in the server.
+9. If everything was succesfull you should be able to `ssh` into the server without entering your password. You can verify that your public key was succesfully copied over to the server by running `$ cd .ssh` and `ls` on the server:
+
+![authorized-key](https://bsalinassanchez.github.io/cse15l-lab-reports/images/authorized-key.png)
+
+
 
 
