@@ -11,11 +11,11 @@ categories: lab reports
 
 This tutorial will teach you how to:
 - [Install Visual Studio Code (VSCode)](#step-1-install-vscode)
-- Connect remotely to ieng6 (server)
-- Perform simple filesystem commands
-- Move files with `scp`
-- Set an SSH Key
-- Optimize remote running
+- [Connect remotely to ieng6 (server)](#step-2-connecting-remotely-to-ieng6-server)
+- [Perform simple filesystem commands](#step-3-simple-filesystem-commands)
+- [Move files with `scp`](#step-4-moving-files-with-scp)
+- [Set an SSH Key](#step-5-setting-an-ssh-key)
+- [Optimize remote running](#step-6-optimize-remote-running)
 
 
 <p>&nbsp;</p>
