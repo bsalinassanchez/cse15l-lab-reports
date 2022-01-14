@@ -2,4 +2,4 @@
 layout: home 
 ---
 
-# CSE 15L Lab Reports
+CSE 15L Lab Reports
