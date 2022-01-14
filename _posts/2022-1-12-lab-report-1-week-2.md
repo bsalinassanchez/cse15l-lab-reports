@@ -128,6 +128,7 @@ SSH Keys allow the client to establish a connection to the server without having
 5. The entire interaction should look something like this:
 
 ![keygen](https://bsalinassanchez.github.io/cse15l-lab-reports/images/keygen.png)
+>I already had a ssh key generated which is why it prompted me to "Overwrite". You won't need to overwrite.
 
 6. Now, `ssh` into the server. Once connected to the server run `$ mkdir .ssh` in order to create a "hidden" folder. Run `ls -a` in order to view the hidden folder.
 7. `logout` or `exit` from the server.
