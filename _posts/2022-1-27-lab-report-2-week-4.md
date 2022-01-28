@@ -26,7 +26,8 @@ Symptom of Failure-Inducing Input:
 * ![noArgumentSymptomImage](https://bsalinassanchez.github.io/cse15l-lab-reports/images/noargumenterror.png)
 >This image shows the symptom as a result of the "no argument" bug
 
-Descrption:
+Description:
+
 The bug in our program was caused by trying to access `args[0]`. Since NO test file was passed in as a command-line argument, the program could not access `args[0]` and the output resulted in the symptom: `ArrayIndexOutOfBoundsException`.
 
 
