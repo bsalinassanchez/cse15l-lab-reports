@@ -158,6 +158,49 @@ Is there a long command you repeat often in a short time? Tired of typing it out
 
 There are many more useful command line running tricks, look some up!
 
+#### Impact of Remote Running
+
+How many keystrokes would it take to copy a file to a remote server, ssh into remote server, and run a file on the ieng6 server without any optimization?
+
+Let's try copying and running `example.java` on the remote server:
+```
+public class example {
+	public static void main(String[] args) {
+		System.out.println("How many keystrokes did it take to run this file?");
+	}
+}
+```
+
+
+Lets Count!
+
+Running Without Optimization:
+1. `scp example.java cs15lwi22xyz@ieng6.ucsd.edu:~/` + `enter` + `password` - 48 keystrokes + password length
+2. `ssh cs15lwi22xyz@ieng6.ucsd.edu` + `enter` + `password` - 32 keystrokes + password length
+2. `javac example.java` + `enter` + `java example` + `enter` - 32 keystrokes
+3. Total of 112 keystrokes + (3 * password length)!
+
+Now let's try running with optimization
+
+*It is important to note that we are assuming the user has ran the code before without optimization and that the commands are stored in the terminal and accessible through the up-arrow key. We also assume user has setup ssh key requiring no password to `scp` or `ssh`. We also assume the user has used the command `ssh cs15lwi22xyz@ieng6.ucsd.edu "javac example.java; java example;"`*
+
+Running With Optimization: updating `example.java` and running it on server
+
+Make local change to `example.java`: add print statements
+```
+System.out.println(System.getProperty("os.name"));
+System.out.println(System.getProperty("user.name"));
+System.out.println(System.getProperty("user.home"));
+System.out.println(System.getProperty("user.dir"));
+```
+
+1. `up-arrow key`(scp command) + `enter` - 2 keystrokes
+2. `up-arrow key`(ssh,javac,java) + `enter` - 2 keystrokes
+3. Total of 4 keystrokes + (x * up-arrow key) if arrow key was pressed more than once.
+4. Wow! There is a HUGE difference between running without optimization and running with optimization. This can save you a lot of time!
+
+* ![optimizedRunning](https://bsalinassanchez.github.io/cse15l-lab-reports/images/optimizedrunning.png)
+
 
 
 
