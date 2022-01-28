@@ -50,4 +50,29 @@ Another issue we ran into was the program not printing all the links found in a 
 
 The bug in our program was caused by a fix to another bug! After we changed the implementation of `getLinks`, we ran into a symptom where if a line had multiple links then only the first would be printed. The failure-inducing file, `links.md`, had multiple links per line which cuased the symptom.
 
+### Code Change 3: Empty Link ([]())
+
+One bug we encountered was the program adding an empty string to the array whenever it encountered an empty array. For example: `[www.youtube.com, , www.twitter.com]`. Notice the empty spot
+
+#### Screenshot of Fix:
+
+* ![emptyLinkFix](https://bsalinassanchez.github.io/cse15l-lab-reports/images/emptylinkfix.png)
+>This image shows our fix to the empty link bug. We added an if-conditional statement to check that the space between the parenthesis is not empty.
+
+#### Link to Test File:
+
+* [Link to test file `emptyLinkTest.md`](https://github.com/bsalinassanchez/markdown-parse/blob/main/emptyLinkTest.md)
+
+#### Symptom of Failure-Inducing Input
+
+* ![emptyLinkSymptom](https://bsalinassanchez.github.io/cse15l-lab-reports/images/emptylinksymptom)
+>This images shows the symptom as a result of the program adding an empty space into the `toReturn` array if it encounters an empty link.
+
+#### Description: 
+
+The bug in our program was cuased by the programm adding an empty space, " ", to the `toReturn` ArrayList. The symptom as a result of this bug was an ArrayList printed that had empty spots in the middle. For example: `[www.youtube.com, , www.twitter.com]`. Notice the empty space. The file, `emptyLinkTest.md`, brought about this symptom becuase it contained an empty link: \[\]\(\)
+
+
+
+
 
