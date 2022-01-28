@@ -200,6 +200,7 @@ System.out.println(System.getProperty("user.dir"));
 4. Wow! There is a HUGE difference between running without optimization and running with optimization. This can save you a lot of time! There is no need to type your password everytime you use `scp` or `ssh`. There is also no need to run many different commands. Only two are needed!
 
 * ![optimizedRunning](https://bsalinassanchez.github.io/cse15l-lab-reports/images/optimizedrunning.png)
+>this image demonstrates copying an updated file to the remote server, ssh into a remote server, and compiling and running a file in a remote server all in only 2 commands!
 
 
 
