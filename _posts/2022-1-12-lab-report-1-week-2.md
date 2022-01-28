@@ -197,7 +197,7 @@ System.out.println(System.getProperty("user.dir"));
 1. `up-arrow key`(scp command) + `enter` - 2 keystrokes
 2. `up-arrow key`(ssh,javac,java) + `enter` - 2 keystrokes
 3. Total of 4 keystrokes + (x * up-arrow key) if arrow key was pressed more than once.
-4. Wow! There is a HUGE difference between running without optimization and running with optimization. This can save you a lot of time!
+4. Wow! There is a HUGE difference between running without optimization and running with optimization. This can save you a lot of time! There is no need to type your password everytime you use `scp` or `ssh`. There is also no need to run many different commands. Only two are needed!
 
 * ![optimizedRunning](https://bsalinassanchez.github.io/cse15l-lab-reports/images/optimizedrunning.png)
 
