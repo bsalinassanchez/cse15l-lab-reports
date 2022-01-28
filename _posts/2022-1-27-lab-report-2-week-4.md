@@ -65,7 +65,7 @@ One bug we encountered was the program adding an empty string to the array whene
 
 #### Symptom of Failure-Inducing Input
 
-* ![emptyLinkSymptom](https://bsalinassanchez.github.io/cse15l-lab-reports/images/emptylinksymptom)
+* ![emptyLinkSymptom](https://bsalinassanchez.github.io/cse15l-lab-reports/images/emptylinksymptom.png)
 >This images shows the symptom as a result of the program adding an empty space into the `toReturn` array if it encounters an empty link.
 
 #### Description: 
