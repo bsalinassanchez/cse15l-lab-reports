@@ -5,7 +5,7 @@ tags: github gitpages
 categories: lab reports
 ---
 
-# Week 4 Lab Report
+# Week 6 Lab Report
 
 ## Overview
 
