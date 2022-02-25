@@ -39,7 +39,7 @@ JUnit Output:
 
 ### Snippet 3
 
-Expected Outcome: ``["https://twitter.com", "https://ucsd-cse15l-w22.github.io/", "https://cse.ucsd.edu/"]``
+Expected Outcome: ``["https://ucsd-cse15l-w22.github.io/"]``
 
 JUnit Test:
 ![snippet three test](https://bsalinassanchez.github.io/cse15l-lab-reports/images/snippetThreeTest.png)
@@ -75,7 +75,7 @@ JUnit Output:
 
 ### Snippet 3
 
-Expected Outcome: ``["https://twitter.com", "https://ucsd-cse15l-w22.github.io/", "https://cse.ucsd.edu/"]``
+Expected Outcome: ``["https://ucsd-cse15l-w22.github.io/"]``
 
 JUnit Test:
 ![snippet three test other](https://bsalinassanchez.github.io/cse15l-lab-reports/images/othersnippetThreeTest.png)
