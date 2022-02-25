@@ -50,17 +50,17 @@ JUnit Output:
 
 ## Other Team Implementation
 
-Their repository: <a href="https://github.com/bsalinassanchez/markdown-parse" target="_blank">markdown-parse</a>
+Their repository: <a href="https://github.com/Stocktocon/markdown-parse" target="_blank">markdown-parse-other-team</a>
 
 ### Snippet 1
 
 Expected Outcome: ``["`google.com", "google.com", "ucsd.edu"]``
 
 JUnit Test:
-![snippet one test](https://bsalinassanchez.github.io/cse15l-lab-reports/images/snippetOneTest.png)
+![snippet one test other](https://bsalinassanchez.github.io/cse15l-lab-reports/images/othersnippetOneTest.png)
 
 JUnit Output:
-![snippet one output](https://bsalinassanchez.github.io/cse15l-lab-reports/images/snippetOneOutput.png)
+![snippet one output other](https://bsalinassanchez.github.io/cse15l-lab-reports/images/othersnippetOneOutput.png)
 
 
 ### Snippet 2
@@ -68,20 +68,20 @@ JUnit Output:
 Expected Outcome: ``["a.com", "a.com(()), "example.com"]``
 
 JUnit Test:
-![snippet two test](https://bsalinassanchez.github.io/cse15l-lab-reports/images/snippetTwoTest.png)
+![snippet two test other](https://bsalinassanchez.github.io/cse15l-lab-reports/images/othersnippetTwoTest.png)
 
 JUnit Output:
-![snippet two output](https://bsalinassanchez.github.io/cse15l-lab-reports/images/snippetTwoOutput.png)
+![snippet two output other](https://bsalinassanchez.github.io/cse15l-lab-reports/images/othersnippetTwoOutput.png)
 
 ### Snippet 3
 
 Expected Outcome: ``["https://twitter.com", "https://ucsd-cse15l-w22.github.io/", "https://cse.ucsd.edu/"]``
 
 JUnit Test:
-![snippet three test](https://bsalinassanchez.github.io/cse15l-lab-reports/images/snippetThreeTest.png)
+![snippet three test other](https://bsalinassanchez.github.io/cse15l-lab-reports/images/othersnippetThreeTest.png)
 
 JUnit Output:
-![snippet three output](https://bsalinassanchez.github.io/cse15l-lab-reports/images/snippetThreeOutput.png)
+![snippet three output other](https://bsalinassanchez.github.io/cse15l-lab-reports/images/othersnippetThreeOutput.png)
 
 
 
