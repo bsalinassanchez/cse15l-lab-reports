@@ -86,6 +86,37 @@ JUnit Output:
 
 
 
+## Questions
+
+1. For snippet 1, I think there is a bit over 10 lines of code that could possibly fix the issue. The first thing I would do is look for a single backtick. If the index is -1 then don't do anything. Else, if the index is greater than -1, then look for a second backtick. If the second backtick is found then skip any text between the index of both backticks. Do this by checking that currentIndex is not in between the indexes of the two backticks. The implementation would look something like this:
+```
+int firstBacktick = markdown.indexOf("`");
+int secondBacktick = -1;
+Boolean between = false;
+if(firstBacktick != -1) {
+    secondBacktick = markdown.indexOf("`", firstBacktick);
+}
+
+if(firstBacktick != -1 && secondBacktick != -1) {
+    if(currentIndex >= firstBacktick && currentIndex <= secondBacktick) {
+        between = true;
+    }
+}
+
+//some different checks
+
+if(between == true) {
+    currentIndex = closeParen + 1;
+}
+```
+
+2. I don't think there is a solution that is less-than 10 lines of codes that would fix the problem with nested parenthesis. In lecture we went over a similar solution and it was longer than 10 lines. I think this solution would take longer than 10 lines of code becuase we would need to implement a stack and several loops and if-statements. We would need to push/pop to the stack, check that each open parenthesis has a closing parenthesis, and increment the currentIndex.
+
+3. I think there is a less-than 10 line solution for the third snippet problem. The solution would be somewhat similar to the solution for the backtick problem. First you would look for the index of a new line escape character(`\n`). Then you would need to check if the index of the new-line character is between the open/close parenthesis or the open/close brackets. If so, update the current index to be after the closing parenthesis. If not, then don't do anything. 
+
+
+
+
 
 
 
