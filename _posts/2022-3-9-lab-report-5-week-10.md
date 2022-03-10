@@ -58,7 +58,14 @@ Expected output:
 ![test 2 expected](https://bsalinassanchez.github.io/cse15l-lab-reports/images/test2expectedoutput.png)
 > Actual expected output from commonmark.org
 
-I believe that my implementation for markdown-parse is wrong. However, I don't think its because of a bug but rather my implementation does not account for reference links. Reference links are another feature of markdown. 
+I believe that my implementation for markdown-parse is wrong. However, I don't think its because of a bug but rather my implementation does not account for reference links. Reference links are another feature of markdown. My implementation also doesn't check for any spaces inside of the link. The reason why the provided implementation had the correct output is becuase it does account for spaces inside of a link.
+
+Space inside link example:
+
+
+`[example](www. link)` - not a link
+
+`[example2](  link.com  )` - a link
 
 #### Test 2 Possible Fix:
 A possible fix for my bug/issue would be to add a helper method to my implementation that accounts for reference links. Reference Links are not one of the possible issues we could run into that we accounted for.
