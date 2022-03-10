@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week 8 Lab Report
+title: Week 10 Lab Report
 tags: github gitpages
 categories: lab reports
 ---
